@@ -47,7 +47,7 @@ DISCORD_TOKEN=seu_token_do_bot_aqui
 - Use o pip para instalar as bibliotecas necessarias:
 ``
 pip install discord.py python-dotenv
-
+``
 ## Execute o bot
 - Inicie o bot com o comando:
 `` python main.py ``
