@@ -5,7 +5,7 @@ import asyncio
 from dotenv import load_dotenv
 from discord.ui import Button, View
 
-# 1. Configurações Iniciais
+# configurações iniciais
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
@@ -14,7 +14,7 @@ intents.message_content = True
 intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-# --- CLASSES DE VIEW (Sempre fora dos comandos) ---
+# classes de view
 
 class Produto1View(View):
     def __init__(self):
@@ -69,7 +69,7 @@ class TicketView(View):
 
         await interaction.response.send_message(f"Seu ticket foi criado! Acesse aqui: {ticket_channel.mention}", ephemeral=True)
 
-# --- COMANDOS ---
+# comandos
 
 @bot.event
 async def on_ready():
