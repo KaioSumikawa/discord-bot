@@ -1,6 +1,6 @@
-# Discord Bot (Governança de TI & Automação)
+# Discord Bot 
 
-Este projeto é um bot para Discord desenvolvido com foco em automação de processos, integração com APIs e boas práticas de Governança de TI, especialmente em relação a segurança, controle de acesso e gestão de configurações sensíveis.
+> Este projeto é um bot para Discord desenvolvido com foco em automação de processos, integração com APIs e boas práticas de Governança de TI, especialmente em relação a segurança, controle de acesso e gestão de configurações sensíveis.
 
 ## Objetivo do Projeto
 O bot foi criado para simular cenários reais de sistemas em produção, com foco em:
